@@ -21,13 +21,15 @@ input[type=number] {
 }
 input{
     font-size: 1.1em;
+    border-color: black;
+    border: 1px solid white;
 }
 input[type="submit"]:hover
 {
-background-color: rgb(14, 190, 52) !important;
+background-color: rgb(95, 169, 111) !important;
 }
 #box{
-  box-shadow: 0px 0px 10px grey ;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255) ;
   width: max-content;
 display: grid;
 grid-template-areas: 'item1 item2';
@@ -61,14 +63,14 @@ grid-template-areas: 'item1 item2';
 box-shadow: none;
 }
 #item1{
-  box-shadow: 0px 0px 10px grey;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
   display: block;
 margin-left: auto !important;
 margin-right: auto !important;
 }
 #item2{
 margin-top: 10%;
-box-shadow: 0px 0px 10px grey;
+box-shadow: 0px 0px 10px rgb(255, 255, 255);
 margin-left: auto !important;
 margin-right: auto !important;
 }
