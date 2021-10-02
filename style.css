@@ -42,6 +42,19 @@ grid-template-areas: 'item1 item2';
   height: 100% !important;
   grid-area: item1;
 }
+#item1:hover, 
+#item1:focus,
+#item1:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: rgb(12, 73, 20);
+}
+#item2:hover, 
+#item2:focus,
+#item2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 #item2{
  
   width: 100% !important;
