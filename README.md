@@ -1,7 +1,6 @@
 # Checkout Page for a Shopping Cart
 This website is live at https://ieiciet.github.io/Checkout-ShoppingCart
 
-
 ## Please note that this is created using HTML, CSS & JS only
 ### Create an issue with name as what you wanna do (e.g. "Improve" , "Fix" , "Update" etc.) and write a proper description of your task
 #### 1. Fork the repository
