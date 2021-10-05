@@ -14,4 +14,4 @@ This website is live at https://ieiciet.github.io/Checkout-ShoppingCart
 
 
 style="color: white;background-color: rgb(71, 197, 98);font-size: 1.1em;height: 40px;width:80% ;display:block;margin: 0 auto;border-radius: 10px;letter-spacing: 1px;font-weight:600;" />
->>>>>>> Stashed changes  (incoming Chnages)
+>>>>>>> Stashed changes  (incoming Changes)
