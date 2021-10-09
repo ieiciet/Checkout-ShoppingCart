@@ -44,9 +44,10 @@ background-color: rgb(95, 169, 111) !important;
 }
 #box{
   box-shadow: 0px 0px 10px rgb(255, 255, 255) ;
-  width: max-content;
+  width: 100%;
 display: grid;
 grid-template-areas: 'item1 item2';
+
 }
 
 #item1{
