@@ -180,9 +180,7 @@ body {
                                 Please select your card:
                             </label></td>
                         <td>
-                            <select
-                                style="height: 28px; width: 100%;text-align-last:center;background-color:rgb(91, 177, 253);border: none;color: white;outline: none;"
-                                id="selectBox" onchange="changeFunc()">
+                            <select style="height: 28px; width: 100%; text-align-last:center; background-color:rgb(91, 177, 253); border: none;color: white; outline: none;"id="selectBox" onchange="changeFunc()">
                                 <option>
                                     Visa
                                 </option>
@@ -224,12 +222,17 @@ body {
                         </td>
                     </tr>
                     <tr>
+
                         <td colspan="2" style="padding-top: 70px;padding-bottom: 10px;">
                             <input type="submit" value="Checkout" onclick="check();"
                                 style="color: white;background-color: rgba(66, 157, 84, 0.886);font-size: 1.1em;height: 40px;width:80% ;display:block;margin: 0 auto;border-radius: 10px;letter-spacing: 1px;font-weight:500;" />
 
                                
                         </td>
+
+                        <td colspan="2" style="padding-top: 70px;padding-bottom: 10px;" id="td-button">
+                            <a href="#"  class="btn hvr-right" onclick= "check();">Checkout</a>
+                             </td>
                     </tr>
                 </form>
             </table>
