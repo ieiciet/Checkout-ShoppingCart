@@ -1,3 +1,4 @@
+
 body {
 	background: linear-gradient(-45deg, #4d12d8, #dd09dd, #06ace9, #21f5c3);
 	background-size: 400% 400%;
@@ -17,7 +18,9 @@ body {
 }
 
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    font-family:'Poppins', sans-serif;
+
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
