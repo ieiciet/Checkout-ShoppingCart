@@ -135,3 +135,72 @@ margin-right: auto !important;
 #td-button{
   text-align: center;
 }
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  font-family: sans-serif;
+}
+
+.modal-content{
+  background: linear-gradient(-45deg, #06ace9, #21f5c3);
+  width: 100%;
+  padding: 15px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  max-width: 650px;
+  margin:auto;
+  border-radius:0px;
+  border: 0px solid #fcfcfc;
+  -webkit-border-image: url(none) 30 stretch; /* Safari 3.1-5 */
+  -o-border-image: url(none) 30 stretch; /* Opera 11-12.1 */
+  border-image: url(none) 30 stretch;
+}
+
+.modal-close{
+  font-size: 20px;
+  float: right;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  margin-top: -10px;
+  transition: all .2s;
+  cursor: pointer;
+  width: auto;
+}
+  
+.modal-close:hover{
+  color: #3b3b3b;
+}
+  
+.modal-text{
+  text-align: center;
+  color:#ffffff;
+}
+  
+.modal-text h2{
+  font-size: 24px;
+  font-weight: 600;
+}
+  
+.modal-text p{
+  font-size: 17px;
+  margin-top: -15px;
+  margin-bottom: 50px;
+}
+  
+@media screen and (max-width: 27em) {
+  .modal-text p{
+    font-size: 15px;
+  }
+}
