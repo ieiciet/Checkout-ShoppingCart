@@ -115,32 +115,32 @@
                             <label style="color:whitesmoke;font-weight: 600;">Card Number</label><br />
                             <input type="number"
                                 style="height: 30px;width: 100%;background-color:rgb(91, 177, 253);border: none;color: white;outline: none;"
-                                id="card" />
+                                id="cardNo" required/>
                         </td>
                     </tr>
                     <tr>
                         <td colspan="2">
                             <label style="color:whitesmoke;font-weight: 600;">Card Holder</label><br />
                             <input type="text"
-                                style="height: 30px;width: 100%;background-color:rgb(91, 177, 253);border: none;color: white;outline: none;" />
+                                style="height: 30px;width: 100%;background-color:rgb(91, 177, 253);border: none;color: white;outline: none;" id="cardHolder" required />
                         </td>
                     </tr>
                     <tr>
                         <td style="width: 50%;">
                             <label style="color:whitesmoke;font-weight: 600;">Expires</label><br>
                             <input type="date"
-                                style="height: 30px;width: 100%;background-color:rgb(91, 177, 253);border: none;color: white;outline: none;" />
+                                style="height: 30px;width: 100%;background-color:rgb(91, 177, 253);border: none;color: white;outline: none;" id="expires" required />
                         </td>
                         <td style="width:50% ;padding-left: 20px;">
-                            <label style="color:whitesmoke;font-weight: 600;">CVC</label><br>
+                            <label style="color:whitesmoke;font-weight: 600;">CVV</label><br>
                             <input type="number"
-                                style="height: 30px;width: 100%;background-color:rgb(91, 177, 253);border: none;color: white;outline: none;" />
+                                style="height: 30px;width: 100%;background-color:rgb(91, 177, 253);border: none;color: white;outline: none;" id="cvv" required />
                         </td>
                     </tr>
                     <tr>
 
                         <td colspan="2" style="padding-top: 70px;padding-bottom: 10px;" id="td-button">
-                            <a href="#"  class="btn hvr-right" onclick= "check();">Checkout</a>
+                            <button type="submit" class="btn hvr-right">Checkout</button>
                         </td>
                         <div id="popup-modal" class="modal">
                             <div class="modal-content animated bounce">

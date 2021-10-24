@@ -47,9 +47,10 @@ input{
   text-decoration: none;
   width: 80%;
   text-align: center;
-  height: 28px;
+  height: 3.1rem;
   padding: 8px 0;
   margin: 0 auto;
+  cursor: pointer;
 }
 .hvr-right{
   display: inline-block;
