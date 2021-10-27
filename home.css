@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-image: url(../../photos/Room_main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100vh;
+    height: 100vh;
+    width: 100%;
+}
+
+img {
+    position: absolute;
+    top: 199px;
+    right: 87px;
+}
+
+a {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-decoration: none;
+    font-style: none;
+    color: black;
+}
+
+.button button {
+    background-color: aqua;
+    width: 156px;
+    height: 45px;
+    margin-left: 17vw;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.button {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+}
+
+.text-typing {
+    align-items: center;
+    justify-content: center;
+    padding: 11px 149px;
+    background: transparent;
+    font-size: 2.5rem;
+    font-family: monospace;
+    border-radius: 50px;
+}
+
+.text-typing p {
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(43, end) forwards, blink 1s infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%
+    }
+    100% {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    0%,
+    100% {
+        border-right: 2px solid transparent;
+    }
+    50% {
+        border-right: 2px solid #222;
+    }
+}
